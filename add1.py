@@ -1,0 +1,5 @@
+print('Enter the 1st no.')
+one = int(input())
+print('Enter the 2nd no.')
+two = int(input())  
+print('The sum of  ' + str(one) + ' and ' + str(two) +  ' is : ' , one + two )
