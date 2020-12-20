@@ -5,7 +5,6 @@ i = 1
 for i in range(x): 
     if (x <= av):
        print("Candy")
-       x += 1 
     else:
         print("Sorry, we only have " + str(av) + "  no. of candies")
         break
