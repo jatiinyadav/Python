@@ -4,4 +4,4 @@ for j in nums:
         print('The no. ' +  str(j) +  ' is a multiple of 5' )
         break
 else: 
-    print("not") 
+    print("Not a multiple of 5") 
