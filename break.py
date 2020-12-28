@@ -1,9 +1,13 @@
 #
+
+print("----------")
+
+
 av = 3 
 x = int(input("Enter the no. of candies you want?\n"))
 i = 1
-for i in range(x): 
-    if (x <= av):
+for i in range(x):
+    if (x >= av):
        print("Candy")
     else:
         print("Sorry, we only have " + str(av) + "  no. of candies")
