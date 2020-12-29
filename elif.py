@@ -13,6 +13,6 @@ elif x == 5:
     print("Five")
 
 else:
-    print("Dekh ke daal na Lawde")
+    print("Enter value of X under 5")
 
 
