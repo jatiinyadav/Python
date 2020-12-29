@@ -9,6 +9,9 @@ elif x == 3:
     print("Three") #// elif will not check other statements if the condition satisfies earlier 
 elif x == 4:
     print("Four")
+elif x == 5:
+    print("Five")
+
 else:
     print("Dekh ke daal na Lawde")
 
