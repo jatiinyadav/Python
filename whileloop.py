@@ -1,9 +1,9 @@
-i = 1
-j = 3 
-while(i<=2):
+i = 5
+j = 9 
+while(i<6):
     print(" Jatin " , end = "" )
     i = i + 1
-    while(j<=3):
+    while(j<10):
         print(" Rocks ", i, j, end = "")
         j = j + 1
     
