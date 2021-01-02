@@ -5,5 +5,5 @@ print("The sum is : " + str(x + y + z))
 
 
 name = "Hey There !!"
-name.replace('y', 'i')
-print(name)
+
+print(name.replace('y', 'i'))
