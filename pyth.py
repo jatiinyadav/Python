@@ -5,5 +5,6 @@ print("The sum is : " + str(x + y + z))
 
 
 name = "Hey There !!"
-
 print(name.replace('y', 'i'))
+
+print(name.count("Hey There!!"))
