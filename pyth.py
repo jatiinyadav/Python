@@ -8,3 +8,5 @@ name = "Hey There !!"
 print(name.replace('y', 'i'))
 
 print(name.count("Hey There!!"))
+
+print(name.lower())
