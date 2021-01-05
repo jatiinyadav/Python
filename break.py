@@ -7,7 +7,7 @@ av = 3
 x = int(input("Enter the no. of candies you want?\n"))
 i = 1
 for i in range(x):
-    if (x >= av):
+    if (av >= x ):
        print("Candy")
     else:
         print("Sorry, we only have " + str(av) + "  no. of candies")
@@ -18,11 +18,11 @@ print("Have a great day ahead")
 print("----------")
 
 
-#lit = [2,4,5,6]
-#for i in lit:
-    #if (i%2==0):
-       # print(i, "Y")
-    #else:
-        #print(i, "N")
+lit = [2,4,5,6,9]
+for i in lit:
+    if (i%2==0):
+        print(i, "Even")
+    else:
+        print(i, "Odd")
 
-#print("----------")
+print("----------")
