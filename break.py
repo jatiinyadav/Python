@@ -2,7 +2,7 @@
 
 print("----------")
 
-
+"""
 av = 3 
 x = int(input("Enter the no. of candies you want?\n"))
 i = 1
@@ -13,6 +13,7 @@ for i in range(x):
         print("Sorry, we only have " + str(av) + "  no. of candies")
         break
 print("Have a great day ahead")
+"""
 
 
 print("----------")
@@ -28,16 +29,16 @@ for i in lit:
 print("----------")
 
 
-av = 3 
+av = 3
 candy = int(input("Enter The no. of candies you want?\n"))
 i = 1
 for i in range(candy):
     if (candy<=av):
         if (candy%2==0):
-            print("Here are your even no. of candies")
+            print("Even no. of Candies")
         else:
-            print("Here are your odd no. of candies")
+            print("Odd no. of Candies")
     else:
-        print("Sorry, we only have " + str(av) + "  no. of candies")
+        print("Sorry, we only have " + str(av) + " candies")
         break
 print("Have a great day ahead")
