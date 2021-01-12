@@ -42,6 +42,6 @@ print(s)
 #dictionary
 
 data = (2,4,6,7)
-values = ('Jatin','dkd','dhd')
+values = ('I'm','dkd','dhd')
 jat = dict(zip(data,values))
 print(jat)  
