@@ -43,5 +43,5 @@ print(s)
 
 data = (2,4,6,7)
 values = ('Hello, ','I am','Jatin','Yadav')
-jat = dict(zip(data,values))
+showDict = dict(zip(data,values))
 print(jat)  
