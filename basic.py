@@ -37,7 +37,7 @@ print("-------")
 #set
 
 set = {2,3,4,5}           # in set value can be changed
-print(s)
+print(set)
 
 #dictionary
 
