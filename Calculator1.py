@@ -4,7 +4,7 @@ print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
-choice = int(input("Enter choice 1_2_3_4:  "))
+choice = int(input("Enter choice 1-2-3-4:  "))
 
 def add(x, y):
     return x + y
