@@ -1,7 +1,7 @@
-num = 8 
+num = int(input("Enter a number\n"))
 for i in range(2,num):
-    if(num%i== 0):
-        print("not prme")
+    if (num%i==0):
+        print("Not prime")
         break
 else:
-    print("prime") 
+    print("Prime")
