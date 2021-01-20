@@ -4,17 +4,17 @@ b = int(input("Enter 2nd no. "))
 def div(a,b):
     print(a/b)
 
-def smart_div(func):
+def smart_div(even):
 
-    def inner(a,b):
+    def div(a,b):
 
         if a<b:
             a,b =b,a
 
-        return func(a,b)
+        return even(a,b)
 
-    return inner
+    return div
 
 div1 = smart_div(div)
 
-div1(a,b)
+div1(a,b) 
