@@ -8,3 +8,7 @@ if j == 0:
         print("Smaller than 5 ")
 else:
     print(" Nahi hai")
+
+
+if 5 > 2:
+    print("Five is greater tha two")

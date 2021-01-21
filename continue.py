@@ -1,6 +1,6 @@
-#for i in range(16):
-        #continue
-    #print(i)  
+for i in range(16):
+        continue
+    print(i)  
 
 
 list = [2,3,4,5]
@@ -15,4 +15,4 @@ list = [1,2,3,4,5,6]
 for j in list:
     if(j%6!= 0):
         continue
-    print(j, end="9 ")
+    print(j, end="9")

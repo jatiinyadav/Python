@@ -8,19 +8,57 @@ print(des)
 
 print("--------")
 
-l1 = ['1','2','3']
-l2 = ['4','5','6']
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(car.get("model"))
 
-for i in l1:
-    for j in l2:
-        print(i,j)
+print("--------")
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car["year"] = 2020
+
+print(car)
 
 print("--------")
 
-i = 1
-n = 2
-while(i<=5):
-    print(n," * ", i , " = " ,  n*i)
-    i +=1
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car["color"] = "red"
+
+print(car)
 
 print("--------")
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.pop("model")
+
+print(car)
+
+print("--------")
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.clear()
+
+print(car)
+
+

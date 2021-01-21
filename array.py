@@ -1,25 +1,43 @@
-from array import *     #here * means to include all the functions of array
+import array as array
 
-vals = array('i',[3,5,7,9])
+arr1 = array.array('i', [2, 4, 6, 8])
+
+print(type(arr1))               #view() if you change arr1, arr2 will be changed and in copy() only that arr wil change in which you are making changes
+
+arr2 = arr1
+
+arr1[1] = 8 
+
+print(arr1)
+print(arr2)
+
+print(id(arr1))
+print(id(arr2))
+
+
+vals = array.array('i',[3,5,7,9])
 vals.reverse()
+
+print(vals.buffer_info())
+
+print(vals)
 
 for i in vals:
     print(i)
 
+
 print("-------")
 
-vals = array('i',[2,5,4])
+vals = array.array('i',[2,5,4])
 
 for i in range(len(vals)):
     print(vals[i])
   
 print("-------")
 
-#till here on git hub
 
-
-val = array('i', [5,4,3,2])
-newArr = array(val.typecode, (a*a for a in val))
+val = array.array('i', [5,4,3,2])
+newArr = array.array(val.typecode, (a*a for a in val))
 
 for e in newArr:        
     print(e)
