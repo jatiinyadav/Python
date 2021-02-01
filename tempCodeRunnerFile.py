@@ -1,2 +1,4 @@
-comp1.config()
-comp2.config2()
+    a = 9
+    x = globals()['a']
+    print(x)
+    print(id(x))
