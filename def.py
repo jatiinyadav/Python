@@ -36,3 +36,4 @@ print(new_final_list)
 reduce_list = (reduce(lambda x,y: x + y, li))
 
 print(reduce_list)
+

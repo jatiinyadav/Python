@@ -19,5 +19,8 @@ for i in range(1,n):
     app = int(input("Enter the "+ str(i)+ " no. "))
     lst.append(app)
 even, odd = count(lst)
-print("There are " + str(even) + " even no ")
-print("There are " + str(odd) + " odd no ")
+# print("There are " + str(even) + " even no ")
+# print("There are " + str(odd) + " odd no ")
+
+
+print("There are {} Even no. and {} Odd no.".format(even,odd))
