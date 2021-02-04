@@ -4,7 +4,7 @@ class Section:
         self.jatin = Yadav
         self.jeet = kumar
 
-
+ 
     def say(self):
         print("The compute is ", self.jatin, self.jeet )
 
