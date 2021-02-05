@@ -6,7 +6,8 @@ class Section:
 
  
     def say(self):
-        print("The compute is ", self.jatin, self.jeet )
+        # print("The compute is ", one.jatin, two.jeet )
+        pass
 
 
 one = Section(12, "Jatin")
@@ -14,3 +15,6 @@ two = Section(18, "Yadav")
 
 one.say()
 two.say()
+
+print(one.jatin)
+print(two.jeet)
