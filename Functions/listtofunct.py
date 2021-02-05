@@ -21,6 +21,4 @@ for i in range(1,n):
 even, odd = count(lst)
 # print("There are " + str(even) + " even no ")
 # print("There are " + str(odd) + " odd no ")
-
-
 print("There are {} Even no. and {} Odd no.".format(even,odd))
