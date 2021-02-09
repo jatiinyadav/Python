@@ -4,14 +4,16 @@ b = int(input("Enter 2nd no. "))
 def div(a,b):
     print(a/b)
 
-def smart_div(even):
+#changing the behaviour is called decorators 
+
+def smart_div(function):
 
     def div(a,b):
 
         if a<b:
             a,b =b,a
 
-        return even(a,b)
+        return function(a,b)
 
     return div
 
