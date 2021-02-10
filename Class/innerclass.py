@@ -29,4 +29,4 @@ s1.lap.show()
 
 # lap1 = Student.Laptop()
 
-# print(lap1,show())
+# print(lap1.show())

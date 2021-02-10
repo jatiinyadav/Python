@@ -1,6 +1,6 @@
-# # #global keyword 
+# global keyword 
 
-# # #preference will be give 1st to local variable
+# preference will be give 1st to local variable
 
 a = 10
 print(id(a))
@@ -46,9 +46,9 @@ print("------")
 a = 10
 
 def hey():
-    global a
-    a = 15
+    a = 10
     print("Inside hey", a)
+    globals()['a'] = 20
 
 print("Before caaling hey", a)
 hey()

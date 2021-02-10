@@ -45,7 +45,15 @@ def odd_even(x):
 
 odd_even(x)
 
-list4 = [1,2,3,4,5,6]
+print("--------")
+
+n = int(input("Enter the number of elements: "))
+
+list4 = []
+
+for i in range(1,n + 1):
+    number = int(input("Enter the number for index {}: ".format(i)))
+    list4.append(number)
 
 even = 0
 odd = 0

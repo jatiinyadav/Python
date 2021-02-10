@@ -1,20 +1,20 @@
+n = int(input("Enter no. of students: "))
+
 class Section:
 
-    def __init__(self, Yadav, kumar):
-        self.jatin = Yadav
-        self.jeet = kumar
+    def details(self):
 
- 
-    def say(self):
-        # print("The compute is ", one.jatin, two.jeet )
-        pass
+        for i in student_list:
+            print(i)
 
+student_list = []
 
-one = Section(12, "Jatin")
-two = Section(18, "Yadav")
+for i in range(1, n + 1):
+    name = input("Enter name: ")
+    roll = int(input("Enter roll no. of {}: ".format(name)))
+    student_list.append(name)
+    student_list.append(roll)
 
-one.say()
-two.say()
+one = Section()
 
-print(one.jatin)
-print(two.jeet)
+one.details()

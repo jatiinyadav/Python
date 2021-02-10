@@ -60,5 +60,3 @@ car =	{
 car.clear()
 
 print(car)
-
-
