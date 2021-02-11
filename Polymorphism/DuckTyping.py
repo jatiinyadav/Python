@@ -16,13 +16,13 @@ class MyEditor:
 class Laptop:
 
     def code(self, ide):
-        idee.execute()
+        myIDE.execute()
 
-idee = MyEditor()
+myIDE = MyEditor()
 
 lap1 = Laptop()
 
-lap1.code(idee)
+lap1.code(myIDE)
 
 
 print("----------------")
