@@ -9,7 +9,6 @@ class MyEditor:
 
     def execute(self):
         print("Numbers")
-        print("Colors")
         print("Compiling")
         print("Running")
 
