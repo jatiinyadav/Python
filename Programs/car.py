@@ -25,6 +25,5 @@ while command != "quit":
 
     elif command == "quit":
         break
-
-    else :
+    else :  
         print("Use command words")
