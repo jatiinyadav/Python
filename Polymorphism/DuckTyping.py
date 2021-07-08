@@ -15,31 +15,36 @@ class MyEditor:
 
 class Laptop:
 
-    def code(self, ide):
+    def code(self):
         myIDE.execute()
+
 
 myIDE = MyEditor()
 
 lap1 = Laptop()
 
-lap1.code(myIDE)
+lap1.code()
 
 
 print("----------------")
 
-class Bird: 
-    def fly(self): 
-        print("Fly with wings") 
-  
-class Airplane: 
-    def fly(self): 
-        print("Fly with fuel") 
-  
-class Fish: 
-    def swim(self): 
-        print("Fish swim in sea") 
-  
-# Attributes having same name are 
-# considered as duck typing 
-for obj in Bird(), Airplane(), Fish(): 
-    obj.fly() 
+
+class Bird:
+    def fly(self):
+        print("Fly with wings")
+
+
+class Airplane:
+    def fly(self):
+        print("Fly with fuel")
+
+
+class Fish:
+    def swim(self):
+        print("Fish swim in sea")
+
+
+# Attributes having same name are
+# considered as duck typing
+for obj in Bird(), Airplane(), Fish():
+    obj.fly()

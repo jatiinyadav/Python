@@ -1,12 +1,12 @@
-# 1.  Instance Method 
-# 2.  Class Method 
+# 1.  Instance Method
+# 2.  Class Method
 # 3.  Static Method
 
 class Student:
-    
+
     college = "ABESIT"
 
-    def __init__(self,m1, m2, m3):
+    def __init__(self, m1, m2, m3):
         self.m1 = m1
         self.m2 = m2
         self.m3 = m3

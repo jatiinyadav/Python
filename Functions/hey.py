@@ -1,11 +1,13 @@
 n = int(input("Enter no. of students: "))
 
+
 class Section:
 
     def details(self):
 
         for i in student_list:
             print(i)
+
 
 student_list = []
 

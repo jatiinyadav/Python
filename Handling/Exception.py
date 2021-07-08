@@ -4,10 +4,10 @@ try:
     b = int(input("Enter no. 2: "))
     print(a/b)
 
-except ZeroDivisionError as e :
+except ZeroDivisionError as e:
     print("You can't do", e)
 
-except ValueError as e :
+except ValueError as e:
     print("You can't do", e)
 
 except Exception as e:
